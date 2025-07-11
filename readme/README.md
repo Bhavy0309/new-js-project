@@ -1,1 +1,1 @@
-# new-js-project
+a normal js project
