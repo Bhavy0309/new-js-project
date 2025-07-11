@@ -5,7 +5,7 @@ let person = {
     gender: 'male'
 }
 // Access the `name` property from the `person` object.
-alert(person.fName)
+console.log(person.fName)
 
 // Change the `age` property of `person` to a new value.
 person.age = 10
@@ -17,11 +17,11 @@ person.country = 'USA'
 delete person.gender
 
 // Check if the `name` property exists in the `person` object.
-alert(person.fName);
+console.log(person.fName);
 
 // Loop through all properties in the `person` object using `for...in`.
 for (let key in person) {
-    alert(key + ":" + person[key])
+    console.log(key + ":" + person[key])
 }
 
 // Create an empty object called `car` and add `make`, `model`, and `year` properties.
@@ -33,7 +33,7 @@ car[2] = 2026
 // Create an object `student` with a method `greet()` that returns "Hello".
 let student = {
     greet: function (){
-        alert('Hello!')
+        console.log('Hello!')
     }
 }
 student.greet()
@@ -49,4 +49,4 @@ function callbook(bookObject){
     return bookObject.author, bookObject.title , bookObject.year 
 }
 let result = callbook(book)
-alert(result)
+console.log(result)
